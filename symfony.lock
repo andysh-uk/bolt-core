@@ -242,6 +242,9 @@
     "fabpot/goutte": {
         "version": "v3.3.0"
     },
+    "fakerphp/faker": {
+        "version": "v1.10.1"
+    },
     "fig/link-util": {
         "version": "1.1.0"
     },
@@ -283,9 +286,6 @@
         "files": [
             ".php_cs.dist"
         ]
-    },
-    "fzaninotto/faker": {
-        "version": "v1.9.1"
     },
     "guzzlehttp/guzzle": {
         "version": "6.5.2"
@@ -1064,6 +1064,18 @@
     },
     "symfony/yaml": {
         "version": "v4.4.4"
+    },
+    "symfonycasts/reset-password-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "97c1627c0384534997ae1047b93be517ca16de43"
+        },
+        "files": [
+            "config/packages/reset_password.yaml"
+        ]
     },
     "symplify/auto-bind-parameter": {
         "version": "v7.2.2"
